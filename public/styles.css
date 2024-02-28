@@ -83,3 +83,35 @@ a:hover {
 }
 
 /* END OF MAIN HEADER 1st section */
+
+/* FEATURE PROJECTs  */
+.project {
+  height: 400px;
+  padding: 34px;
+  margin-bottom: 34px;
+}
+
+.project h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.project .features {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.features .card {
+  height: 140px;
+  width: 140px;
+  border: 2px black solid;
+}
+
+.card-text {
+  margin-top: 6px;
+  padding: 2px;
+  width: 140px;
+}
+
+/* END OF  FEATURE PROJECTs section  */
