@@ -49,7 +49,7 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
 
-  gap: 50px;
+  gap: 30px;
   padding: 24px;
 }
 
@@ -79,9 +79,9 @@ a:hover {
 
 .header-right .portfolio-image {
   padding: auto;
-  height: 200px;
+  height: 230px;
   width: 200px;
-  background-image: url("./images/dmitry-vechorko-CKkXOUtXyi4-unsplash.jpg");
+  background-image: url("./images/dmitry-vechorko-cut.png");
   background-size: cover;
   background-color: #fff;
   mix-blend-mode: color-burn;
@@ -105,10 +105,6 @@ a:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 16px;
-}
-
-.card-holder {
-  flex: 0 0 200px;
 }
 
 .features .card {
