@@ -16,7 +16,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 34px 34px 16px 34px;
+  padding: 24px 40px 16px 40px;
   background: #24528d;
   border-bottom: 2px solid #224574;
 }
@@ -42,7 +42,7 @@ a:hover {
 /* MAIN-HEADER 1st section */
 .main-header {
   background: #24528d;
-  height: auto;
+  height: 500px;
 
   display: flex;
   justify-content: center;
@@ -72,21 +72,25 @@ a:hover {
 
 .header-right {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex: 0 0 400px;
 }
 
 .header-right .portfolio-image {
-  height: 200px;
-  background-color: #8d8b8b;
   padding: auto;
+  height: 300px;
+  width: 200px;
+  background-image: url("./images/dmitry-vechorko-CKkXOUtXyi4-unsplash.jpg");
+  background-size: cover;
+  background-color: #fff;
+  mix-blend-mode: color-burn;
 }
 
 /* END OF MAIN HEADER 1st section */
 
 /* FEATURE PROJECTs  */
 .project {
-  height: 400px;
   padding: 34px;
   margin-bottom: 34px;
 }
@@ -99,12 +103,18 @@ a:hover {
 .project .features {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 16px;
 }
 
+.card-holder {
+  flex: 0 0 200px;
+}
+
 .features .card {
-  height: 140px;
   width: 140px;
+  height: 140px;
+
   border: 2px black solid;
 }
 
