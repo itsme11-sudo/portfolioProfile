@@ -7,6 +7,7 @@
 
 body {
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -15,6 +16,9 @@ body {
 /* HEADER */
 .header {
   display: flex;
+  flex-wrap: wrap;
+  min-width: 200;
+  flex: 1 0 200;
   justify-content: space-between;
   padding: 24px 40px 16px 40px;
   background: #24528d;
@@ -60,7 +64,7 @@ a:hover {
 /* MAIN-HEADER 1st section */
 .main-header {
   background: #24528d;
-  height: 500px;
+  height: 550px;
 
   display: flex;
   justify-content: center;
