@@ -57,6 +57,27 @@ a:hover {
   color: white;
   flex: 0 1 500px;
 }
+
+.header-left ul {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-left ul li {
+  height: 20px;
+  width: 40px;
+  font-size: 36px;
+}
+
+.header-left ul li:nth-child(3) {
+  color: #00d8ff;
+}
+
+.header-left ul li:nth-child(4) {
+  color: #72a960;
+}
+
 .header-left p {
   margin: 4px;
 }
