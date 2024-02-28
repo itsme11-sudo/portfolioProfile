@@ -38,3 +38,48 @@ a:hover {
 }
 
 /* END OF HEADER */
+
+/* MAIN-HEADER 1st section */
+.main-header {
+  background: #24528d;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 50px;
+  padding: 24px;
+}
+
+.header-left {
+  color: white;
+  flex: 0 1 500px;
+}
+.header-left p {
+  margin: 4px;
+}
+
+.header-left p:nth-child(3) {
+  text-align: center;
+}
+
+.header-left .contact-me {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  flex: 0 0 400px;
+}
+
+.header-right .portfolio-image {
+  height: 200px;
+  background-color: #8d8b8b;
+  padding: auto;
+}
+
+/* END OF MAIN HEADER 1st section */
