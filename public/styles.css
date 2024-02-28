@@ -21,6 +21,24 @@ body {
   border-bottom: 2px solid #224574;
 }
 
+.header nav {
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  width: 56px;
+  height: 56px;
+  background: #6583c4;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.header h1 a {
+  text-decoration: none;
+  color: #e9e9e9;
+}
 ul {
   display: flex;
   gap: 14px;
